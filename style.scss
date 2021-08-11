@@ -1,0 +1,14 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./layout/identifier_client.scss";
+@import "./layout/formulaire_enregistrement.scss";
+@import "./layout/Formulaire_panier.scss";
+
+
+
+
+.mon_panier {
+    display: flex;
+    flex-direction: column;
+}
+

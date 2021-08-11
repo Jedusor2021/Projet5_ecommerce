@@ -1,0 +1,100 @@
+.row-dashboard {
+    display: flex;
+    padding: 0;
+}
+.row-dashboard .col-3 {
+    width: 12.926625%;
+}
+.rb-menu {
+    padding: 15px 18px;
+}
+.rb-menu li {
+    padding: 0;
+}
+.row-dashboard .rb-menu a {
+    font-size: 1.2rem;
+}
+.row-dashboard .col-9 {
+    width: 100%;
+}
+.row-dashboard .rb-menu a {
+    font-size: 1.2rem;
+}
+.column-account {
+    padding: 10px 15px 25px;
+    margin-right: 0;
+}
+.column-account .container-account {
+    padding: 0 0 30px;
+}
+.dashboard .row-account {
+    display: initial;
+}
+.dashboard .row-account .col-account {
+    margin-right: 0;
+}
+.column-account h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+h1 {
+    font-family: latobold,Arial,sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0 0 1.9rem 0;
+    padding: 0;
+}
+.container, .mega-menu .mm-inner, .header-inner {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dashboard .col-account {
+    width: 100%;
+}
+.order-container {
+    border: 1px solid #adb0b6;
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section-selection.product-selection h2 {
+    font-size: 1.4rem;
+    font-family: latobold,Arial,sans-serif;
+    color: #000;
+    margin-bottom: 20px;
+}
+.row-dashboard .product-selection, .row-dashboard .quotes {
+    padding: 10px;
+}
+.product-selection .row-selection {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.product-selection .row-selection .col-4 {
+    width: 32% !important;
+    margin-right: 1.9% !important;
+}
+.selection-block {
+    display: block;
+    text-decoration: none;
+}
+.product-selection .row-selection .col-selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    text-align: center;
+    border: 1px solid #adb0b6;
+    margin-bottom: 20px;
+    height: 555px;
+    max-height: inherit;
+}
+.dashboard .row-account .col-account {
+    margin-right: 0;
+}

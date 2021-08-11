@@ -1,0 +1,14 @@
+{
+  "name": "projet5-ecommerce",
+  "version": "1.0.0",
+  "description": "site de ecommerce oursons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boostrap": "^2.0.0"
+  }
+}
