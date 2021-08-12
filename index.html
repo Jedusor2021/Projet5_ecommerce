@@ -21,47 +21,28 @@
 
   <body>
     <div class="container-fluid">
-        <header>
-            <div class="row">
-                <div class="col-6">
-                    <nav class="navbar">
-                        <a class="navbar-brand" href="index.html">
-                           <img src="/path/to/logo.png" width="40" height="30" alt="Site logo">
+        <header class="header" role="banner">
+            <div class="header-inner">
+                <div class="right-logos">
+                    <span class="logo-teddies logo sprite logo-teddies-white" tabindex="-1">
+                        <a id="logo-teddies" href="http://">
+                            <span class="a11y">Teddie's shop</span>
                         </a>
-                     </nav>
+                    </span>
                 </div>
-                <div class="col-3 text-center">Votre panier</div>
-                <div class="col-3 text-center"><a href="identification.html">Se connecter</a></div>
-            </div>
-        </header>
-        <section>
-            <div class="row">
-                <div class="Produits col-12">Produits</div>
-                    <div id="produits_en_stock"></div>
-                </div>   
-            </div>
-        </section>
-        <footer>
-            <div class="row">
-                <div class="col-4">Nous contacter</div>
-                <div class="col-4">Assistance</div>
-                <div class="col-4">A propos de nous</div>
-                    <ul class=”list-inline”>
-                      <li class=”list-inline-item”>Nos partenaires</li>
-                      <li class=”list-inline-item”>Nos producteurs</li>
-                      <li class=”list-inline-item”>Nos lieux d'assemblage</li>
+                <div id="mobile-buttons" class="mobile-buttons">
+                    <ul class="user-nav" style="margin-top: 11px;">
+                        <li class="user-nav-item user-nav-basket user-nav-account" title="Votre panier">
+                            <span aria-hidden="true" class="icon-caddy"></span>
+                            <span class="icon-caddy" aria-hidden="true"></span>
+                            <span class="label a11y">Votre panier</span>
+                        </li>
+                        <li class="text-center">Se connecter</li>
                     </ul>
                 </div>
-        </footer>
-    </div>
-
-    <!-- Optional JavaScript -->
-
-    <!-- Bootstrap JS -->
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-  </body>
+            </header>
+        </div>
+    </body>
 
 </html>
 
