@@ -1,0 +1,28 @@
+.header-inner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #ebe97b;
+    border-radius: 1px #000000 solid;
+}
+.right-logo {
+    display: flex;
+    flex-direction: column;
+    width: 4%;
+    border-radius: 1px solid black;
+}
+.right-logo img {
+    width: 15%;
+    margin-top: 10px;
+}
+.img {
+    border-radius: 2px solid black;
+}
+.text-center {
+    margin-top: 40px;
+    color:#000000;
+    font-weight: bold;
+}
+.a11y {
+    font-weight: bold;
+}
