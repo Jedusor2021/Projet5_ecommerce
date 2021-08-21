@@ -7,11 +7,11 @@
      
     <link rel="stylesheet" href="style.scss" defer/>
 
-    <script src="./js/index.js"></script>
-       
+    <script src="./js/panier.js"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Accueil</title>
+    <title>Panier</title>
   </head>
 
   <body>
@@ -21,23 +21,18 @@
                 <div class="right-logo col-6"><img src="Images/logo.jpg" alt="logo_teddie's store">
                 <span class="a11y">ORINOCO</span>
                 </div>
-                <div class="lien">
-                    <a href="panier.html">Votre panier</a>
+                <div class="liens">
+                   <a href="index.html">Accueil</a>
+                   <a href="produit.html">Produit</a>
                 </div>
-            </div>
         </header>
 
-        <!--Produits-->
-        <main class="main col-12" id="main">
-            <template id="templateArticle">
-            <article class="ourson col-2">
-                <img id="img" class="img" src="imageUrl">
-                <h4 id="Name" class="Name"></h4>
-                <a href="produit.html" id="ourson_link" class="ourson_link">Voir l'article</a>
-            </article>
-            </template>
-        </main>
+    <!--Produits-->
+    <div id="container-produits-panier">
+          <h2>Produits sélectionnés</h2>  
+    </div>
 
+    <!--Formulaire de commande-->
 
         <footer></footer>
     </body>

@@ -1,0 +1,42 @@
+.h2 {
+    font-size: 2rem;
+}
+.div {
+    font-size: 1.6rem;
+}
+#container-produits-panier {
+    display: flex;
+    flex-direction: column;
+    min-width: 80vw;
+    justify-content: center;
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+}
+.container-recapitulatif {
+    background-color: #CCCC99;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-grow: 1;
+    flex-basis: 3rem;
+    flex-shrink: 1;
+}
+.container-montant-total {
+    background-color: #45b8e6;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-grow: 1;
+    flex-basis: 3rem;
+    flex-shrink: 1;
+}
+.liens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 300px;
+}

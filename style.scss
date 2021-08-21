@@ -1,11 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "./layout/banniere.scss";
 @import "./layout/oursons_adoption.scss";
-@import "./Font-face/police.scss";
-
-
-.mon_panier {
-    display: flex;
-    flex-direction: column;
-}
+@import "./layout/produit.scss";
+@import "./layout/panier.scss";
 

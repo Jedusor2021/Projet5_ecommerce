@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     
+    <link rel="stylesheet" href="style.scss">
+
+    <script src="./js/produit.js" defer></script>
+    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Produit</title>
+  </head>
+
+  <body>
+        <header class="header" role="banner">
+            <div class="header-inner">
+                <div class="right-logo col-6"><img src="Images/logo.jpg" alt="logo_teddie's store">
+                <span class="a11y">ORINOCO</span>
+                </div>
+                <div class="liens">
+                   <a href="index.html">Accueil</a>
+                   <a href="panier.html">Votre panier</a>
+                </div>
+            </div>
+        </header>
+
+    <div class="article" id="article">
+        <article class="ourson_produit">
+        <img id="img" class="img col-4" src="imageUrl">
+        <div class="composants col-3" id="composants">
+            <h4 id="Name" class="Name"></h4>
+            <p id="Price" class="Price"></p>
+            <p id="Description" class="description"></p>
+            <ul>
+                <li>Couleur 0: <span></span></li>
+                <li>Couleur 1: <span></span></li>
+                <li>Couleur 2: <span></span></li>
+                <li>Couleur 3: <span></span></li>
+             </ul>
+        </div>
+        <div class="finalisation col-3" id="finalisation">
+            <form><label>Choisir l'option</label>
+                <select name="option_article" id="option_article">
+                   <option value="Couleur_0">couleur 0</option>
+                   <option value="Couleur_1">couleur 1</option>
+                   <option value="Couleur_2">couleur 2</option>
+                   <option value="Couleur_3">couleur 3</option>
+                </select>  
+            </form>
+            <button class="btn-envoyer" type="submit" id="btn-envoyer">Ajouter au panier</button>
+            <a href="index.html">Retour à l'accueil</a>
+        </div>
+        </article>
+    </div>
+</body>
+</html>

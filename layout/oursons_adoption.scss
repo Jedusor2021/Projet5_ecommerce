@@ -1,28 +1,33 @@
-.container {
+.main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
 }
-.h1 {
+
+.ourson {
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    background-color: bisque;
+    justify-content: space-between;
+    border: #CCCC99 8px solid;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 10%;
+}
+.h3 {
     font-family: 'MonteCarlo';
 }
-.produits {
-    font-family: "MonteCarlo-Regular.ttf";
-    margin-top: 20px;
-    font-size: 40px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
+.Name {
+    margin-top:25px;
+    justify-content: center;
+    font-family:'MonteCarlo';
 }
 .img {
-    width: 20%;
-}
-.button {
-    width: 80px;
-    height: 60px;
-    margin-bottom: 110px;
-}
-.card {
-    border-radius: 2px black solid;
-    width: 60%;
+    width: 100%;
 }

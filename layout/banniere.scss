@@ -1,9 +1,9 @@
 .header-inner {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 100%;
-    background-color: #ebe97b;
-    border-radius: 1px #000000 solid;
+    background-color: #7bebeb;
 }
 .right-logo {
     display: flex;
@@ -25,4 +25,9 @@
 .a11y {
     font-weight: bold;
     font-family: 'KaushScript';
+}
+.lien {
+    margin-top: 40px;
+    margin-right: 50px;
+    color: black;
 }
