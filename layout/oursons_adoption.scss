@@ -26,8 +26,24 @@
 .Name {
     margin-top:25px;
     justify-content: center;
-    font-family:'MonteCarlo';
+    font-family:'Allison';
 }
 .img {
     width: 100%;
+}
+
+
+/* RECAPITALTIF COMMANDE*/
+.recapCommande {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid burlywood;
+    justify-content: center;
+    width: 40%;
+    margin-left: 370px;
+    margin-top: 25px;
+}
+p {
+    text-align: center;
+    font-weight: 60px;
 }

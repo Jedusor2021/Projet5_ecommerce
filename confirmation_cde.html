@@ -7,9 +7,11 @@
      
     <link rel="stylesheet" href="style.scss" defer/>
 
+    <script src="./js/confirmation.js"></script>
+          
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Panier</title>
+    <title>Récap commande</title>
   </head>
 
   <body>
@@ -19,22 +21,25 @@
                 <div class="right-logo col-6"><img src="Images/logo.jpg" alt="logo_teddie's store">
                 <span class="a11y">ORINOCO</span>
                 </div>
-                <div class="liens">
-                   <a href="index.html">Accueil</a>
-                   <a href="confirmation_cd.html">Confirmation</a>
+                <div class="lien">
+                    <a href="index.html">Accueil</a>
+                    <a href="panier.html">Votre panier</a>
                 </div>
-            <div>
+            </div>
         </header>
 
-    <!--Produits-->
-    <section>
-    <h4>Votre panier</h4> 
-    <div id="container-produits-panier">
-           
-    <div>
-    </section>
-    
-    <footer></footer>
-        <script src="./js/panier.js"></script>
+        <!--Récapitulatif commande-->
+        <section>
+            <div id="container-recaputilatif-commande">
+                <h5>Récapitulatif de votre commande</h5>
+                <div class="recapCommande">
+                    <p>Merci pour votre commande</p>
+                    
+                    <p>Au plaisir de vous revoir</p>
+                </div>
+            </div>
+        </section>
+        <footer></footer>
     </body>
 </html>
+

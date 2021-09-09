@@ -1,14 +1,22 @@
 @font-face /*charger la police applicable au site */
 {
 	font-family:'KaushanScript';
-	src: url('Police\police/KaushanScript-Regular.ttf');
+	src: url('Police/KaushanScript-Regular.ttf');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face /*charger la police applicable au site */
 {
 	font-family:'MonteCarlo';
-	src: url('Police\police/MonteCarlo-Regular.ttf');
+	src: url('Police/MonteCarlo-Regular.ttf');
 	font-weight: normal;
-	font-style: normal;
+	font-style: italic;
+}
+
+@font-face /*charger la police applicable au site */
+{
+	font-family:'Allison';
+	src: url('Police/Allison-Regular.ttf');
+	font-weight: normal;
+	font-style: italic;
 }

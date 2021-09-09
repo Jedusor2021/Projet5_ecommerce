@@ -24,6 +24,7 @@ function displayArticle(article) {
 
     cloneElt.getElementById("Name").textContent = article.name
     cloneElt.getElementById("img").src = article.imageUrl
+    cloneElt.getElementById("ourson_link").href += "?_id="+ article._id
 
     document.getElementById("main").appendChild(cloneElt)
 }

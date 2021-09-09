@@ -7,7 +7,7 @@
 #container-produits-panier {
     display: flex;
     flex-direction: column;
-    min-width: 80vw;
+    min-width: 50vw;
     justify-content: center;
     border: 2px solid black;
     margin-left: 100px;
@@ -15,7 +15,7 @@
     margin-top: 40px;
 }
 .container-recapitulatif {
-    background-color: #CCCC99;
+    background-color: rgb(194, 197, 6);
     display: flex;
     justify-content: space-around;
     align-items:center;
@@ -40,3 +40,38 @@
     margin-left: 20px;
     width: 300px;
 }
+#formulaireCommande {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(194, 197, 6);
+    margin-top: 20px;
+    margin-left: 250px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+button {
+    background-color: #e0e00c;
+}
+#envoyerFormulaire {
+    margin-top: 10px;
+}
+.h5 {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
+}
+.h4{
+    font-weight: bold;
+    margin-top: 40px;
+} 
+
