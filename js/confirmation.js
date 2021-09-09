@@ -2,7 +2,8 @@
 const responseId = localStorage.getItem("responseId");
 
 //Structure html de la page confirmation de commande
-const positionElement = document.querySelector("recapCommande");
+const positionElement = document.querySelector(".recapCommande");
+console.log(positionElement)
 const structureConfirmationCommande = `
 <p>Votre commande n°: ${responseId} a bien été prise en compte `;
 
