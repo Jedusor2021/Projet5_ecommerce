@@ -5,15 +5,20 @@ const responseId = localStorage.getItem("responseId");
 const positionElement = document.querySelector(".recapCommande");
 console.log(positionElement)
 const structureConfirmationCommande = `
-<p>Votre commande n°: ${responseId} a bien été prise en compte `;
+    <p>Merci pour votre commande</p>
+    <p>Votre commande n°: ${responseId} a bien été prise en compte
+    <p>Au plaisir de vous revoir</p> 
+
+`;
 
 //injection HTML
 positionElement.insertAdjacentHTML("beforebegin", structureConfirmationCommande);
 
 //effacer tout le LS sauf le formulaire
-function enleverCleLocalStorage(){
-    localStorage.removeItem();
+function enleverCleLocalStorage(key){
+    localStorage.removeItem(key);
 };
 enleverCleLocalStorage("responseId");
 enleverCleLocalStorage("products");
-enleverCleLocalStorage("contact");
+enleverCleLocalStorage("prixTotal");
+enleverCleLocalStorage("article");

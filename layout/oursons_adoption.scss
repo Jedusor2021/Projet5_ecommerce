@@ -34,16 +34,21 @@
 
 
 /* RECAPITALTIF COMMANDE*/
-.recapCommande {
+#container-recaputilatif-commande {
     display: flex;
     flex-direction: column;
     border: 5px solid burlywood;
     justify-content: center;
-    width: 40%;
-    margin-left: 370px;
-    margin-top: 25px;
+    width: 60%;
+    margin-left: 200px;
+    margin-top: 50px;
 }
-p {
+h5 p {
     text-align: center;
     font-weight: 60px;
+}
+.lien {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
 }
