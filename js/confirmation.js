@@ -14,11 +14,3 @@ const structureConfirmationCommande = `
 //injection HTML
 positionElement.insertAdjacentHTML("beforebegin", structureConfirmationCommande);
 
-//effacer tout le LS sauf le formulaire
-function enleverCleLocalStorage(key){
-    localStorage.removeItem(key);
-};
-enleverCleLocalStorage("responseId");
-enleverCleLocalStorage("products");
-enleverCleLocalStorage("prixTotal");
-enleverCleLocalStorage("article");

@@ -34,6 +34,7 @@ for(l = 0; l < produitEnregistreDansLocalStorage.length; l++){
     positionElement3.innerHTML = structureProduitPanier;
   }
 }
+
 //--------------------------------fin affichage panier-----------------------
 
 //***************************MONTANT TOTAL DU PANIER************************

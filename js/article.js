@@ -56,7 +56,7 @@ let optionsProduit = {
   _id:document.getElementById('_id').innerHTML,
   
 }
-console.log(optionsProduit);
+
 //------------------LOCAL STORAGE---------------------------------------
 //----------stocker la récupération des valeurs du formulaire dans le LS
 
